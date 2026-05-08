@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/tamamo-no-mae",
     "maintainers": [
       {
@@ -18,68 +18,123 @@
   },
   "phenomenon": {
     "id": "tamamo-no-mae",
-    "name": "Tamamo-no-Mae (玉藻前)",
-    "aliases": [],
-    "category": "NINE-TAILED_FOX_(KYŪBI_NO_KITSUNE)",
-    "subcategory": "with feminine qualities",
+    "name": "Tamamo-no-Mae",
+    "aliases": [
+      { "name": "玉藻前", "language": "Japanese (kanji)", "meaning": "literally 'Lady Duckweed' or 'Jeweled Maiden'" },
+      { "name": "Tamamo-no-Mae", "language": "Japanese (rōmaji)" },
+      { "name": "Hakumen Konmō Kyūbi no Kitsune", "language": "Japanese", "meaning": "'White-Faced Golden-Haired Nine-Tailed Fox' — title used in some otogizōshi" }
+    ],
+    "category": "SHAPESHIFTER",
+    "subcategory": "Nine-tailed fox spirit (kyūbi no kitsune)",
     "tags": [
-      "and-themes"
+      "japan",
+      "kitsune",
+      "nine-tailed-fox",
+      "yokai",
+      "heian-period",
+      "muromachi-period",
+      "killing-stone",
+      "shapeshifter"
     ],
     "status": "documented",
     "description": {
-      "summary": "Tamamo-no-Mae (玉藻前), meaning \\\"Lady Duckweed\\\" or \\\"Jeweled Maiden,\\\" is one of the most notorious and powerful shapeshifting fox spirits in Japanese folklore.",
-      "full": "Tamamo-no-Mae (玉藻前), meaning \\\"Lady Duckweed\\\" or \\\"Jeweled Maiden,\\\" is one of the most notorious and powerful shapeshifting fox spirits in Japanese folklore. Unlike typical kitsune who might play pranks or form relationships with humans, Tamamo-no-Mae represents a malevolent, ancient evil whose schemes operated on a grand scale. Disguised as a breathtakingly beautiful court lady, she infiltrated the highest levels of Imperial power during the Heian period, nearly assassinating Emperor Toba through a mysterious illness that drained his life force. Her legend intertwines political intrigue, supernatural horror, and themes of deception across multiple Asian cultures."
+      "summary": "A legendary Japanese nine-tailed fox spirit who, disguised as a beautiful court lady, infiltrated the Heian Imperial court and bewitched the Emperor before being exposed and slain on the Nasu plain.",
+      "full": "Tamamo-no-Mae is a legendary figure of late-medieval Japanese narrative, first appearing in Muromachi-period otogizōshi and elaborated through the Edo period. In the canonical legend she is a nine-tailed fox (kyūbi no kitsune) who, having previously corrupted Chinese and Indian rulers in earlier lives (often identified with the Shang concubine Daji and with 'Lady Kayō' of India), arrives in Japan and serves Emperor Konoe (or, in many later sources, Emperor Toba) as the courtesan Tamamo-no-Mae. She is so beautiful and erudite that the Emperor falls under her spell and falls gravely ill. The astrologer Abe no Yasuchika divines her true nature, and the warriors Kazusa-no-suke (Hirotsune) and Miura-no-suke (Yoshiaki) are dispatched to hunt her on the Nasu plain in Shimotsuke (modern Tochigi prefecture), where she is killed. Her vengeful spirit then enters a stone, the Sesshō-seki ('Killing Stone'), which emits poisonous vapours and kills any creature that approaches. The stone is finally exorcised by the Buddhist monk Gennō Shinshō, who shatters it into fragments. The Sesshō-seki at Nasu split visibly in two on March 5, 2022, an event widely reported in Japanese and international press. Some scholarship connects Tamamo-no-Mae to the historical Empress consort Bifukumon-in (Fujiwara no Nariko, 1117–1160)."
     },
     "etymology": {
-      "origin": "Japanese with Chinese and Indian influences",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese 玉藻 'tamamo' ('jeweled / beautiful seaweed-like duckweed') + 前 'mae' (a respectful title for a lady).",
+      "meaning": "Approximately 'Lady Duckweed' or 'Jeweled Maiden'.",
+      "first_use": "Muromachi period (1336–1573), in otogizōshi narrative literature."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "NINE-TAILED_FOX_(KYŪBI_NO_KITSUNE)",
-      "type": "with feminine qualities",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "SHAPESHIFTER",
+      "type": "Yōkai",
+      "subtype": "Kyūbi no kitsune (nine-tailed fox spirit)",
+      "variant": "Japanese (Heian-court legend)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kitsune", "name": "Kitsune", "relationship": "superset", "description": "Tamamo-no-Mae is the most famous individual kitsune in Japanese folklore" },
+      { "id": "huli-jing", "name": "Huli jing (Daji)", "relationship": "counterpart", "description": "Chinese nine-tailed fox tradition; the legend explicitly identifies Tamamo-no-Mae with Daji of the Shang" },
+      { "id": "gumiho", "name": "Gumiho", "relationship": "counterpart", "description": "Korean nine-tailed fox tradition" },
+      { "id": "kuzunoha", "name": "Kuzunoha", "relationship": "related", "description": "Another famous Japanese kitsune from the Abe no Seimei legend cycle" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["white fur (in fox form)", "golden / yellow fur (in some accounts)"],
+      "features": [
+        { "feature": "Nine tails", "description": "In her true form she is a nine-tailed fox (kyūbi no kitsune), the highest rank of fox spirit", "frequency": "always" },
+        { "feature": "Extraordinary beauty (in human form)", "description": "Described as the most beautiful woman of the court, surpassing all rivals", "frequency": "always" },
+        { "feature": "Luminescence", "description": "Some accounts state she glowed with a faint light at night, exposing her supernatural nature", "frequency": "common" }
+      ],
+      "morphology": "Shapeshifter alternating between an aristocratic Heian court lady and a gigantic white or golden nine-tailed fox."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Transforms between human and fox form at will", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Bewitchment / illness causation", "description": "Drains the life force of the Emperor, manifesting as wasting illness", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Erudition", "description": "Demonstrates supernatural knowledge of poetry, classics, and esoteric lore in court debate", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Posthumous curse (Sesshō-seki)", "description": "After death her spirit inhabits a stone that poisons all who approach", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Imperial court (in human form)", "Nasu plain (Shimotsuke / Tochigi)", "Sesshō-seki at Nasu Yumoto"],
+      "patterns": [
+        "Cycles through royal courts (India → China → Japan) corrupting rulers",
+        "Concealment of true form, exposure by court astrologer or priest",
+        "Pursuit and slaying by warrior heroes",
+        "Posthumous haunting of the place of death"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Japanese with Chinese and Indian influences",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The legend is centered in Japan, with the climactic events on the Nasu plain in modern Tochigi prefecture. Earlier 'lives' of the fox spirit are set in China (Shang court) and India.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Kantō", "Tochigi prefecture", "Nasu plain"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Sesshō-seki ('Killing Stone'), Nasu Yumoto",
+        "location": {
+          "description": "Volcanic rock at Nasu Yumoto Onsen in the Nasu hot-spring area, Tochigi prefecture",
+          "country": "Japan",
+          "region": "Tochigi prefecture",
+          "coordinates": { "latitude": 37.1242, "longitude": 139.9669 }
+        },
+        "peak_period": "Muromachi–present",
+        "notes": "Site associated with Tamamo-no-Mae's death; the stone visibly split in two on March 5, 2022."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Muromachi period",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Otogizōshi narrative collections, 14th–16th c."
+      },
+      "peak_activity_periods": [
+        { "period": "Muromachi (1336–1573)", "description": "Earliest extant otogizōshi versions of the legend" },
+        { "period": "Edo (1603–1868)", "description": "Diffusion in kabuki, jōruri, ukiyo-e, and chapbook literature; 1653 addendum introducing the Sesshō-seki episode" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Japanese with Chinese and Indian influences",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The legend draws on Chinese fox-spirit traditions (most famously Daji at the Shang court) and on Indian narrative material featuring the 'Lady Kayō' figure, then localizes the cycle within the Japanese Imperial court.",
+      "earliest_accounts": "Otogizōshi prose narratives of the Muromachi period.",
+      "folklore_connections": "Closely linked to the Sesshō-seki tradition at Nasu, to Buddhist exorcism narratives around the monk Gennō Shinshō, and to Heian-court historical fiction."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1156-01-01", "event": "Reign of Emperor Toba ends; the historical period in which the legend later sets the events", "significance": "Anchor for the historical-fiction frame", "source": "Wikipedia, 'Tamamo-no-Mae'" },
+      { "date": "1450-01-01", "event": "The Tamamo-no-Mae legend is in circulation in Muromachi-period otogizōshi prose", "significance": "Earliest extant narrative form of the legend", "source": "Wikipedia, 'Tamamo-no-Mae'" },
+      { "date": "1653-01-01", "event": "Edo-period addendum introduces the Sesshō-seki ('Killing Stone') episode and the exorcism by the Buddhist monk Gennō Shinshō", "significance": "Establishes the canonical post-mortem stone episode", "source": "Wikipedia, 'Tamamo-no-Mae'" },
+      { "date": "2022-03-05", "event": "The Sesshō-seki at Nasu Yumoto is found to have split in two", "significance": "Widely reported as a 'release' of Tamamo-no-Mae's spirit; geologists attribute the splitting to natural cracking from rainwater penetration", "source": "Asahi Shimbun and international press, March 2022" }
+    ],
+    "modern_era": "Tamamo-no-Mae remains a major figure in Japanese popular culture, appearing in Noh and kabuki repertory (e.g. 'Sesshōseki'), in countless anime, manga, and video games (notably the Fate franchise), and in tourism around the Nasu Yumoto onsen area, where the partly broken Sesshō-seki is a registered cultural property of Tochigi prefecture."
   },
   "sightings": {
     "statistics": {
@@ -88,38 +143,117 @@
       "disputed": 0,
       "debunked": 0
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "tamamo-2022-sessho-seki-split",
+        "name": "Splitting of the Sesshō-seki",
+        "date": { "value": "2022-03-05", "precision": "exact" },
+        "location": {
+          "description": "Sesshō-seki ('Killing Stone'), Nasu Yumoto Onsen, Nasu town, Tochigi prefecture",
+          "country": "Japan",
+          "region": "Tochigi",
+          "locality": "Nasu",
+          "coordinates": { "latitude": 37.1242, "longitude": 139.9669, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Park visitors", "Tochigi prefectural cultural-property staff"], "credibility_factors": ["Documented before-and-after photographs", "Reported in major Japanese press"] },
+        "description": "The Sesshō-seki ('Killing Stone'), the volcanic rock at Nasu Yumoto traditionally identified with the death-place and lingering spirit of Tamamo-no-Mae, was discovered to have visibly split into two pieces on the morning of March 5, 2022. Tochigi prefectural officials attributed the rupture to long-term weathering and water infiltration; commentators noted the cultural resonance with the legend of the fox-spirit's release.",
+        "evidence": ["Photographs", "Tochigi prefectural reports"],
+        "credibility": { "rating": "high", "factors": ["Physical event documented in mainstream press", "Geological explanation provided"], "notes": "A real geological event with a strong folkloric resonance." },
+        "sources": ["Asahi Shimbun (March 2022)", "BBC News (March 2022)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "physical": [
+      {
+        "id": "tamamo-evidence-sessho-seki",
+        "type": "natural monument",
+        "name": "Sesshō-seki ('Killing Stone')",
+        "date": "Recorded since the late medieval period; split 2022-03-05",
+        "description": "Volcanic rock at Nasu Yumoto Onsen, traditionally identified as the petrified remnant of Tamamo-no-Mae's malevolent spirit. Toxic volcanic gases (chiefly hydrogen sulfide) in the surrounding area genuinely kill small animals.",
+        "location": "Nasu Yumoto Onsen, Tochigi prefecture, Japan",
+        "status": "verified",
+        "analysis": "Real geological feature. Volcanic gas emissions provide a naturalistic explanation for the 'killing stone' tradition.",
+        "source": "Wikipedia, 'Tamamo-no-Mae'"
+      }
+    ],
+    "documentary": [
+      {
+        "id": "tamamo-evidence-otogizoshi",
+        "type": "manuscript",
+        "name": "Tamamo-no-Mae otogizōshi",
+        "date": "Muromachi period (14th–16th c.)",
+        "description": "Earliest extant prose narratives of the Tamamo-no-Mae legend, in the otogizōshi corpus.",
+        "status": "verified",
+        "analysis": "Primary medieval witness to the legend.",
+        "source": "Otogizōshi corpus"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Bifukumon-in identification",
+        "description": "Some commentators have proposed that the Tamamo-no-Mae figure is a literary refraction of the historical empress consort Fujiwara no Nariko (Bifukumon-in, 1117–1160), whose political power around Emperor Toba and Emperor Konoe drew controversy.",
+        "proponents": ["Cited in the English-language Wikipedia article on Tamamo-no-Mae"],
+        "evidence_cited": ["Chronological proximity of Bifukumon-in's career to the legend's setting", "Court politics around Emperor Konoe"]
+      },
+      {
+        "name": "Volcanic gas explanation for Sesshō-seki",
+        "description": "The Nasu Yumoto area is volcanically active and genuinely emits hydrogen sulfide and other gases lethal to small animals, providing a naturalistic origin for the 'killing stone' tradition.",
+        "proponents": ["Japanese volcanological surveys"],
+        "evidence_cited": ["Documented small-animal die-offs in the Nasu hot-spring zone"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["Otogizōshi", "Noh and kabuki repertory", "Edo-period chapbook (kusazōshi) literature"],
+      "stories": [
+        "The Tamamo-no-Mae legend (Muromachi)",
+        "Sesshōseki (Noh play)",
+        "Tamamo-no-Mae Asahi no Tamoto (kabuki, 1751)"
+      ],
+      "beliefs": "Tamamo-no-Mae is a paradigmatic example of the dangers of foreign or supernatural influence at court and of the protective role of Buddhist clergy and court diviners. She also exemplifies the cross-cultural figure of the seductive fox spirit shared with China and Korea."
+    },
+    "indigenous": {
+      "cultures": ["Japanese (Yamato)"],
+      "significance": "Part of the living Japanese cultural and religious imagination, with active veneration and tourism at Nasu Yumoto.",
+      "sensitivity_note": "Treat the Sesshō-seki and Nasu shrines as living cultural sites rather than mere folkloric curiosities.",
+      "respect_guidelines": "Refer to academic Japanese-studies sources alongside English Wikipedia; cite the Sesshō-seki as a registered cultural property of Tochigi."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Otogizōshi: Tamamo-no-Mae",
+        "Takizawa Bakin, Edo gesaku narratives featuring Tamamo-no-Mae"
+      ],
+      "film_tv": [
+        "Tamamo-no-Mae appears in numerous Japanese television dramas and animated series, often as a femme-fatale archetype"
+      ],
+      "games": [
+        "Fate/Extra and Fate/Grand Order — Servant 'Tamamo-no-Mae' (2010s–)",
+        "Ōkami (Capcom, 2006) — Ninetails antagonist references the legend",
+        "Onmyōji (NetEase, 2016)"
+      ],
+      "other": [
+        "Sesshō-seki tourism at Nasu Yumoto Onsen, Tochigi prefecture"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Komatsu Kazuhiko", "affiliation": "International Research Center for Japanese Studies (Nichibunken)", "contribution": "Major scholarly work on yōkai including kitsune folklore", "period": "1980s–present" }
+    ],
+    "organizations": [
+      { "name": "International Research Center for Japanese Studies (Nichibunken)", "url": "https://www.nichibun.ac.jp/en/", "focus": "Yōkai and folklore scholarship" }
+    ],
+    "ongoing_studies": "Continuing literary and folkloristic studies of the Tamamo-no-Mae cycle in the otogizōshi and the early-modern theatrical repertory, with periodic media coverage of the Sesshō-seki since its 2022 splitting."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-tamamo-no-mae", "type": "website", "title": "Tamamo-no-Mae", "publication": "English Wikipedia", "url": "https://en.wikipedia.org/wiki/Tamamo-no-Mae", "accessed": "2026-05-07" },
+    { "id": "wikipedia-sessho-seki", "type": "website", "title": "Sesshō-seki", "publication": "English Wikipedia", "url": "https://en.wikipedia.org/wiki/Sessh%C5%8D-seki", "accessed": "2026-05-07" },
+    { "id": "asahi-2022-sessho", "type": "news", "title": "'Killing Stone' said to contain evil spirit of nine-tailed fox splits in two", "publication": "Asahi Shimbun", "date": "2022-03", "accessed": "2026-05-07" }
+  ]
 }
